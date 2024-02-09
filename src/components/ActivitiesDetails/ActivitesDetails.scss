@@ -1,0 +1,34 @@
+div {
+    .activi-title {
+        h2 {
+            padding: 50px 200px;
+            text-align: center;
+            font-size: 40px;
+            color: #115288;
+            font-weight: 600;
+        }
+    }
+    .row-activity {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        padding-bottom: 5rem;
+        p {
+            color: #115288;
+            margin-bottom: 2em;
+        }
+        h4 {
+            color: #115288;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+}
+@media (max-width: 595px) {
+    .activi-title {
+        h2 {
+            padding: 50px 24px !important;
+        }
+    }
+
+}

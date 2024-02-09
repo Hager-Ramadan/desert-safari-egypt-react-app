@@ -1,0 +1,42 @@
+form {
+    width: 75%;
+    margin: auto;
+    input,
+    select {
+        height: 47px;
+        width: 100%;
+        padding: 10px;
+    }
+    textarea {
+        width: 100%;
+        padding: 10px;
+    }
+    div {
+        button {
+            color: #a47e3b;
+            border: #a47e3b solid 2px;
+            background-color: transparent;
+            border-radius: 3px;
+            font-size: 15px;
+            font-weight: 400;
+            padding: 8px 20px;
+            transition: 0.4s;
+        }
+    }
+}
+input::placeholder,
+textarea::placeholder {
+    color: #64401d !important;
+    font-size: 15px;
+}
+form > div > button:hover {
+    color: #fff !important;
+    background-color: #a47e3b;
+    transition: 0.4s;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: none !important;
+    border: #a47e3b 2px solid !important;
+}

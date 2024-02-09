@@ -1,0 +1,39 @@
+div {
+    .about-title {
+        h2 {
+            padding: 50px 200px;
+            text-align: center;
+            font-size: 40px;
+            color: #115288;
+            font-weight: 600;
+        }
+    }
+    .row-msg {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        padding-bottom: 5rem;
+        .hamada-msg {
+            p {
+                color: #115288;
+                margin-bottom: 2em;
+            }
+        }
+        .hamada-photo {
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 595px){
+    .about-title {
+            h2 {
+                padding: 50px 24px !important;
+                font-size: 29px !important;
+                
+            }
+        }
+
+}

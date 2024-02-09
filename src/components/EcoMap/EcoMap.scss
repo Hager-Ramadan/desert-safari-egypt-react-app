@@ -1,0 +1,28 @@
+.eco-btn {
+    padding: 60px;
+    .btn-book {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        span {
+            width: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            background-color: #a47e3b;
+            border-radius: 45px;
+            border: #a47e3b 2.4px solid;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.btn-book > span:hover {
+    background-color: #64401d !important;
+    border-color: #64401d;
+}

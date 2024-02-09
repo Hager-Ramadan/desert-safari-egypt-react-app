@@ -1,0 +1,193 @@
+.navbar {
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 0;
+
+    .header-container {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+
+        .logo {
+            a {
+                img {
+                    max-width: 154px;
+                }
+            }
+        }
+
+        nav {
+            display: flex;
+
+            .btn-close {
+                background-color: #a47e3b;
+            }
+
+            .offcanvas {
+                background-color: rgb(255, 255, 255, .9);
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-grow: 1;
+            }
+
+            li {
+                list-style: none;
+                padding: 37px 0;
+                font-size: 13px;
+                letter-spacing: 0.04em;
+                font-weight: 500;
+
+                a {
+                    padding: 37px 0;
+                    text-decoration: none;
+                    color: #fff;
+                    transition: 0.3s;
+                }
+            }
+        }
+
+        .header-btns {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            padding-left: 19px;
+
+            .btn-responsive {
+                font-size: 22px;
+                color: #ecc637;
+                display: none;
+            }
+
+            .social-wrap {
+                display: flex;
+                gap: 9px;
+
+                a {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    text-decoration: none;
+                    color: #fff;
+                    background-color: #28cf54;
+                    border-radius: 100px;
+                    width: 2em;
+                    height: 2em;
+                    font-size: 20px;
+                }
+
+                .trip-icon {
+                    background-color: #00af87;
+                }
+            }
+
+            .header-button {
+                padding: 13px 20px;
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+                background-color: #a47e3b;
+                border-radius: 21px;
+            }
+        }
+    }
+}
+
+.active {
+    background-color: rgb(255, 255, 255, .9);
+
+    li {
+        a {
+            color: #a47e3b !important;
+
+        }
+
+    }
+}
+
+li>a:hover {
+    color: #ecc637 !important;
+    transition: 0.5s;
+}
+
+li>a:hover {
+    border-bottom: #ecc637 1px solid;
+    transition: 0.5s !important;
+}
+
+.header-btns>.social-wrap>a:hover {
+    color: #28cf54 !important;
+    background-color: #fff !important;
+    transition: 0.3s !important;
+}
+
+.header-button:hover {
+    background-color: #64401d !important;
+}
+
+@media (max-width: 1015px) {
+    .header-container {
+        justify-content: space-between;
+        padding-top: 10px;
+
+        .btn-responsive {
+            display: block !important;
+        }
+
+        .logo {
+            a {
+                img {
+                    max-width: 120px !important;
+                }
+            }
+        }
+
+        nav {
+            .nav {
+                display: none !important;
+            }
+
+            .nav-responsive {
+                display: block !important;
+
+                li {
+                    padding: 11px 0;
+                    border-bottom: 1px solid #fff;
+
+                    a {
+                        color: #a47e3b;
+                        padding: 11px 0 !important;
+                    }
+                }
+            }
+
+            .header-btns {
+
+                .btn-book,
+                .social-wrap {
+                    display: none !important;
+                }
+                .responsive-social{
+                    display: flex !important; 
+                    .btn-book{
+                      display: block !important;
+                }
+                }
+               
+            }
+        }
+    }
+
+    li>a:hover {
+        border-bottom: none;
+    }
+}

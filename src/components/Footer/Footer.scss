@@ -1,0 +1,117 @@
+.footer {
+    background-color: #a47e3b;
+    padding: 65px;
+    color: #fff;
+    padding-bottom: 0;
+
+    .data-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        p {
+            padding-bottom: 10px;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 400;
+        }
+        h3,
+        h6 {
+            padding-bottom: 20px;
+            font-family: serif;
+        }
+        .site-name {
+            letter-spacing: 1.5px;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        .name {
+            font-size: 24px;
+        }
+        .phone-num,
+        .e-mail {
+            padding-bottom: 20px;
+            p {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        .social-wrap {
+            display: flex;
+            gap: 9px;
+
+            a {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                text-decoration: none;
+                color: #a47e3b;
+                background-color: #fff;
+                border-radius: 100px;
+                width: 2em;
+                height: 2em;
+                font-size: 23px;
+            }
+        }
+        .title-social {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    .end-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            p,
+            a {
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 12px;
+                letter-spacing: 0.3px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+    }
+}
+.data-footer > div > .phone-num > p > a:hover,
+.data-footer > div > .e-mail > p > a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}
+.data-footer > div > .social-wrap > .whatsapp:hover {
+    background-color: #28cf54;
+    color: #fff;
+    transition: 0.4s;
+}
+.data-footer > div > .social-wrap > .facebook:hover {
+    background-color: #115288;
+    color: #fff;
+    transition: 0.4s;
+}
+.data-footer > div > .social-wrap > .instagram:hover {
+    background-color: #3e77ad;
+    color: #fff;
+    transition: 0.4s;
+}
+.data-footer > div > .social-wrap > .advisor:hover {
+    background-color: #00af87;
+    color: #fff;
+    transition: 0.4s;
+}
+.end-footer > div > p > a:hover {
+    color: #fff;
+    transition: 0.3s;
+}
+@media (max-width: 595px) {
+    .footer {
+        padding: 24px;
+        .data-footer {
+            text-align: center;
+            justify-content: center;
+        }
+    }
+}

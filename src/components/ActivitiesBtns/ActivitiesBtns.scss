@@ -1,0 +1,62 @@
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    gap: 40px;
+
+    .btn-find {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        span {
+            width: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            border: #a47e3b 2.4px solid;
+            border-radius: 45px;
+            font-style: italic;
+            background-color: #fff;
+
+            a {
+                text-decoration: none;
+                color: #a47e3b;
+            }
+        }
+    }
+    .btn-book {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        span {
+            width: 17rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            background-color: #a47e3b;
+            border-radius: 45px;
+            border: #a47e3b 2.4px solid;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.btn-book > span:hover {
+    background-color: #64401d !important;
+}
+.btn-find > span:hover {
+    background-color: #a47e3b !important;
+}
+
+.btn-find > span:hover > a {
+    color: #ffff;
+}

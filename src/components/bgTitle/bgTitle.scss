@@ -1,0 +1,34 @@
+.bg-title {
+    position: relative;
+    background-image: url("../../Assets/kv-privacy-policy.jpg");
+    background-size: cover;
+    background-position: 26% 26%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 73vh;
+    div {
+        position: absolute;
+        bottom: 35px;
+        left: 100px;
+        h1 {
+            font-weight: 900;
+            font-size: 64px;
+            line-height: 1.5;
+            color: #fff;
+        }
+    }
+}
+@media (max-width: 595px) {
+    .bg-activity,
+    .bg-ecolodge,
+    .bg-contact,
+    .bg-about,
+    .bg-title {
+        div {
+            left: 38px !important;
+        }
+    }
+    h2 {
+        font-size: 29px !important;
+    }
+}

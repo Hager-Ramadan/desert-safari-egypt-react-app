@@ -1,0 +1,43 @@
+.row-team {
+    padding: 75px;
+    background-image: url("../../Assets/bg-our-team.jpg");
+    background-size: cover;
+    background-position: 50% 55.00000000000001%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    // opacity: 0.5;
+    h1 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 68px;
+        line-height: 1.1;
+        padding-bottom: 60px;
+    }
+    .card-team {
+        position: relative;
+        .name-team {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 100%);
+            h2 {
+                color: #fff;
+                font-size: 26px;
+                letter-spacing: 1px;
+                line-height: 32px;
+            }
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                line-height: 32px;
+            }
+        }
+        img {
+            position: relative;
+            width: 100%;
+        }
+    }
+}

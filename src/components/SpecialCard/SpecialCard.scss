@@ -1,0 +1,26 @@
+.card-special {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    .icon {
+        font-size: 40px;
+        color: #a47e3b;
+    }
+    h3 {
+        padding-bottom: 10px;
+        font-size: 24px;
+        color: #115288;
+        font-weight: 600;
+    }
+    p {
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #115288;
+        padding: 0;
+    }
+}

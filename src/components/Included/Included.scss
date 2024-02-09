@@ -1,0 +1,53 @@
+.included {
+    padding: 20px;
+    ul {
+        padding: 0;
+        width: 36%;
+        margin: auto;
+        li {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            color: #115288;
+            text-align: center;
+            .star {
+                color: #a47e3b;
+                font-size: 30px;
+                padding-right: 10px;
+            }
+        }
+    }
+    .contact {
+        p {
+            text-align: center;
+            color: #115288;
+            padding: 20px 0 20px 0;
+        }
+    }
+
+    .contact-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+
+        .contact-button {
+            align-items: center;
+            padding: 10px 85px;
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            background-color: #a47e3b;
+            border-radius: 27px;
+            font-family: serif;
+        }
+    }
+}
+@media (max-width: 595px) {
+    .included {
+        div {
+            ul {
+                width: 90%;
+            }
+        }
+    }
+}

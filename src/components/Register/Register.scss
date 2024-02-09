@@ -1,0 +1,67 @@
+.row-form {
+    background-image: url("../../Assets/bg-our-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 55.00000000000001%;
+    background-attachment: fixed;
+    flex-direction: row-reverse;
+    .form {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 9rem 4rem;
+
+        .title-sign {
+            color: #a47e3b;
+            text-align: center;
+        }
+        .user__form {
+            width: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sign-btn {
+            border-radius: 5px;
+            padding: 10px 40px;
+            font-size: 16px;
+        }
+
+        .field-sign {
+            border-radius: 5px;
+            padding: 5px;
+            border: #a47e3b solid 1px;
+        }
+
+        .err {
+            font-size: 13px;
+            text-align: start;
+            width: 100%;
+        }
+
+        label {
+            text-align: start;
+            font-size: 15px;
+        }
+        .register-btn{
+            padding-top: 80px;
+            p,a{
+                color: gray;
+                font-size: 14px;
+
+            }
+        }
+    }
+}
+
+.field-sign::placeholder {
+    font-size: 14px;
+}
+.err:hover {
+    background-color: transparent;
+}
+

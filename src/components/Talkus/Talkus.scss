@@ -1,0 +1,45 @@
+.talk-us {
+    padding: 5rem 28rem;
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        color: #115288;
+        font-weight: 600;
+        margin: 1.5em 0 0.5em;
+    }
+    p {
+        text-align: center;
+        color: #115288;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .contact-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+
+        .contact-button {
+            align-items: center;
+            padding: 10px 85px;
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            background-color: #a47e3b;
+            border-radius: 27px;
+            font-family: serif;
+        }
+    }
+}
+.contact-button:hover {
+    background-color: #64401d !important;
+}
+@media (max-width: 595px){
+    .talk-us {
+            padding: 0rem 2rem;
+    
+            h2 {
+                font-size: 29px;
+            }}
+
+}

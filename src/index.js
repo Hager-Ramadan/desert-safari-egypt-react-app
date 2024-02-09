@@ -1,17 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
+import { RecoilRoot } from "recoil";
+import "animate.css";
+import "./index.scss";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+<RecoilRoot>
+<App/> 
+</RecoilRoot>);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// #Essentials
+// npm i -D react-router-dom@latest
+// npm i sass
+// npm i bootstrap@latest
+// npm i axios
+
+// #Fontawesome
+// npm i --save @fortawesome/fontawesome-svg-core
+// npm i --save @fortawesome/free-solid-svg-icons
+// npm i --save @fortawesome/free-regular-svg-icons
+// npm i --save @fortawesome/free-brands-svg-icons
+// npm i --save @fortawesome/react-fontawesome@latest
+
+// #Optional
+// npm i sweetalert2
+// npm i swiper
+// npm i wowjs
+// npm i animate.css --save
+
+// #How to use
+// # wow js
+// import { WOW } from "wowjs";
+// useEffect(() => {
+//   const wow = new WOW({ live: false });
+//   wow.init();
+// });
