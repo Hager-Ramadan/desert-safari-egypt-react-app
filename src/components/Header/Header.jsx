@@ -27,6 +27,7 @@ function Header() {
             setNavbar(false)
         }
     }
+
     window.addEventListener('scroll', changeBackground);
     return (
         <header className={navbar ? 'navbar active' : 'navbar'}>
@@ -56,22 +57,26 @@ function Header() {
                                 </div>
                             )}</span>
                         </div>
-                        <button class="btn btn-responsive" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><FaBarsStaggered /></button>
+                        <button className="btn btn-responsive" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" ariaControls="offcanvasRight"><FaBarsStaggered /></button>
 
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div className="offcanvas-header">
+                                <h5 className="offcanvas-title" id="offcanvasRightLabel"></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                                 <ul className="nav-responsive">
-                                    <li><Link to={"/"}>HOME</Link></li>
-                                    <li><Link to={"/about-us"}>ABOUT US</Link></li>
-                                    <li><Link to={"/activities"}>ACTIVITIES</Link></li>
-                                    <li><Link to={"/ecolodge"}>ECOLODGE</Link></li>
+                                    <li><Link
+                                        // reloadDocument
+                                        reloadDocument
+
+                                        to={"/"}>HOME</Link></li>
+                                    <li><Link reloadDocument to={"/about-us"}>ABOUT US</Link></li>
+                                    <li><Link reloadDocument to={"/activities"}>ACTIVITIES</Link></li>
+                                    <li><Link reloadDocument to={"/ecolodge"}>ECOLODGE</Link></li>
                                     {/* <li><Link>GALLERY</Link></li> */}
-                                    <li><Link>BLOG</Link></li>
-                                    <li><Link to={"/contact-us"}>CONTACT US</Link></li>
+                                    <li><Link reloadDocument>BLOG</Link></li>
+                                    <li><Link reloadDocument to={"/contact-us"}>CONTACT US</Link></li>
                                 </ul>
                                 <div className="btn-book"><Link className="header-button" to={"/contact-us"}> Book Now </Link></div>
 

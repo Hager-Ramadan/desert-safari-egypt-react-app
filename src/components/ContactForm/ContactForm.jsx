@@ -27,10 +27,13 @@ function ContactForm() {
                     subject: "",
                     message: "",
                 }}
+
                 validationSchema={ContactSchema}
-                onSubmit={(values) => {
+                onSubmit={(values, { resetForm }) => {
                     console.log(values);
                     ContactForm(values);
+                    resetForm()
+
                 }}
             >
                 <Form>
@@ -80,7 +83,7 @@ function ContactForm() {
                         <ErrorMessage name="message" />
                     </span>
                     <div className='mt-3'>
-                        <button type='submit' >SUBMIT FORM</button>{' '}
+                        <button type='submit' >SUBMIT FORM</button>
                     </div>
                 </Form>
             </Formik>
