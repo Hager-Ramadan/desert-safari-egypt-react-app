@@ -5,7 +5,9 @@
     background-position: 50% 55.00000000000001%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    // opacity: 0.5;
+    .row_team {
+            gap: 30px;
+        }
     h1 {
         color: #fff;
         font-weight: 800;
@@ -27,12 +29,12 @@
                 color: #fff;
                 font-size: 26px;
                 letter-spacing: 1px;
-                line-height: 32px;
+                line-height: 38px;
             }
             h3 {
                 color: #fff;
                 font-size: 20px;
-                line-height: 32px;
+                line-height: 40px;
             }
         }
         img {

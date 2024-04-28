@@ -17,12 +17,11 @@ function AboutUs() {
             <Owner />
             <div className="row-team">
                 <TitleTeam />
-                <div className="row">
+                <div className="row row_team justify-content-center">
                     {Team.map((Team, index) => {
                         return (
 
                             <OurTeam key={index} Team={Team} />
-
                         )
                     })} </div>
             </div>

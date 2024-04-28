@@ -9,13 +9,10 @@ import ContactSchema from '../../Schemas/ContactSchema';
 
 function ContactForm() {
     function ContactForm(data) {
-        // delete data.confirmPassword;
         axios.post("http://localhost:3004/contact", data, {
             headers: {
                 "Content-Type": "application/json",
             },
-            // }).then((res) => {
-            //     console.log({ res })
         });
     }
     return (

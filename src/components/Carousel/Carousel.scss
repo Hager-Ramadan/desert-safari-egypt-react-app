@@ -30,6 +30,15 @@
         }
     }
 }
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
 @media (max-width: 1024px){
     .container-carousel{
         padding: 0;

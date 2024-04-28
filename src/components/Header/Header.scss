@@ -34,9 +34,14 @@
 
             ul {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-between !important;
                 align-items: center;
                 flex-grow: 1;
+                .activeLink{
+                    color:#ecc637 !important;
+                    border-bottom: #ecc637 1px solid;
+
+                }
             }
 
             li {
@@ -171,6 +176,9 @@ li>a:hover {
             }
 
             .header-btns {
+                .header-button {
+                        display: none !important;
+                    }
 
                 .btn-book,
                 .social-wrap {

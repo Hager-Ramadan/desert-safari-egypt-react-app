@@ -2,7 +2,7 @@
   "Tours": [
     {
       "id": "1",
-      "href": "activities/#relax",
+      "href": "#relax",
       "type": "Relax",
       "name": "Bahariya Oasis Tour",
       "duration": "from 1 to 3 nights",
@@ -255,58 +255,6 @@
   ],
   "users": [
     {
-      "id": "a572"
-    },
-    {
-      "id": "ae69",
-      "email": "hager.goga555@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "12345678"
-    },
-    {
-      "id": "eef4",
-      "email": "hager555@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "1234567"
-    },
-    {
-      "id": "d7ee",
-      "email": "hager665@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "12345678"
-    },
-    {
-      "id": "ba8d",
-      "email": "snasser636@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "1234567"
-    },
-    {
-      "id": "440c",
-      "email": "hager.goga555@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "123456Ff@"
-    },
-    {
-      "id": "7ab8",
-      "email": "hager.goga555@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "12345Aa@"
-    },
-    {
-      "id": "45f7",
-      "email": "hager.goga555@gmail.com",
-      "name": "hager",
-      "role": "Member",
-      "password": "123456Aa@"
-    },
-    {
       "id": "5b3d",
       "email": "hager.ramadan555@gmail.com",
       "name": "hager",
@@ -347,6 +295,12 @@
       "name": "hager",
       "role": "Member",
       "password": "12345678Aa@"
+    },
+    {
+      "id": "47f1",
+      "email": "hager.ramadan555@gmail.com",
+      "name": "hager",
+      "password": "12345678@Aa"
     }
   ],
   "contact": [
@@ -372,6 +326,13 @@
       "email": "kjasdj@gmail.com",
       "subject": "kjsgdjhsk",
       "message": "akjshjdka"
+    },
+    {
+      "id": "e344",
+      "name": "hager",
+      "email": "hager.ramadan555@gmail.com",
+      "subject": "ghjkl",
+      "message": "hi"
     }
   ],
   "service": [

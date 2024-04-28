@@ -19,7 +19,7 @@ function Activities() {
                 </div>
                 {safari.map((safari, index) => {
                     return (
-                        <ToursActivities key={index} safari={safari} />
+                        <ToursActivities key={index} safari={safari} index={index} />
                     )
                 })}
             </div>
